@@ -2,18 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="CocoRepYt01.xsl"?>
 
 <report>
-<table>
 
-<column name='campaign' display='Campaign'/>
-<column name='campaignState' display='Campaign state'/>
-<column name='campaignType' display='Campaign type'/>
-<column name='adID' display='Ad ID'/>
-<column name='campaignID' display='Campaign ID'/>
-<column name='currency' display='Currency'/><column name='impressions' display='Impressions'/>
-<column name='cost' display='Cost'/><column name='interactions' display='Interactions'/>
-<column name='views' display='Views'/>
-<column name='isrc' display='Isrc'/>
+  <campaign>Coco-Ad-Vidéo Désactivable - 2020-11-15 </campaign>
+  <campaignState> Enabled </campaignState>
+  <campaignType> In-stream video </campaignType>
+  <adID> 480394885430 </adID> 
+  <campaignID>11642108779</campaignID>
+  <currency> ZAR </currency>
+  <impressions> 19,373 <impressions>
+    <cost> 400.09</cost>
+    <interactions> 5,069</interactions>
+    <views> 5,059</views>
+    <isrc> ZAX1I1900010 </isrc>
 
-<row campaign='Coco-Ad-Vidéo Désactivable - 2020-11-15' campaignState='Enabled' campaignType='In-stream video' adID='480394885430' campaignID='11642108779' currency='ZAR' impressions='19,373' cost='400.09' interactions='5,069' views='5,059' isrc='ZAX1I1900010'/>
-</table>
 </report>
