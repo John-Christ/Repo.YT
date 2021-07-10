@@ -5,7 +5,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
   <html>
   <body>
-  <h2>Report:</h2><br>
+  <h2>Report:</h2>
   <br>
   <table border="1">
    
@@ -22,6 +22,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
        <th>Views</th>
        <th>Isrc</th>
       </tr>
+    
       <tr>
         <td><xsl:value-of select="report/campaign"/></td>
         <td><xsl:value-of select="report/campaignState"/></td>
@@ -36,10 +37,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <td><xsl:value-of select="report/isrc"/></td>
 
       </tr>
-    
-    
+       
   </table>
- 
   </body>
   </html>
 </xsl:template>
