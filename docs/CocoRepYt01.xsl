@@ -6,7 +6,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <html>
   <body>
   <h2>Report:</h2>
-  <br>
+
   <table border="1">
    
      <tr bgcolor="darkred">
@@ -39,7 +39,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       </tr>
        
   </table>
-  </body>
+    </body>
   </html>
 </xsl:template>
 
