@@ -2,15 +2,24 @@
 <html>
  <head>
   <script>
-  httpResp.setHeader("Access-Control-Allow-Methods", "POST, PUT, OPTIONS");
-httpResp.setHeader("Access-Control-Allow-Origin", "https://github.com/");
-httpResp.setHeader("Access-Control-Allow-Headers", "Content-Type"));
-  </script>
+  function myFunction() {
+              location.replace("https://boyoquiz.com")
+            }
+            </script>
  </head>
 <body>
  below are the comtent:
  <br>
-
+ <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdKRvsOxdggqoGmZ6CViMgjeJeOwx-t2t9QUvMWEqdRN32seQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+       
+        <input type="file" ><br>
+        
+         
+                                                                   
+        <input type="submit" value="Submit"onclick="myFunction()">
+                                        
+      </form>
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 
 </body>
 </html>
